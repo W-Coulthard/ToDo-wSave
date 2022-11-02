@@ -1,9 +1,9 @@
 :root {
-    --primary: #ea40a4;
-    --business: #3a82ee;
+    --primary: #40acea;
+    --business: #f32222;
     --personal: var(--primary);
-    --light: #eee;
-    --grey: #888;
+    --light: rgb(194, 193, 193);
+    --grey: #a3a1a1;
     --dark: #313154;
     --danger: #ff5b57;
 
@@ -29,8 +29,8 @@ input:not([type="checkbox"]):not([type="radio"]), button {
 }
 
 body {
-    background: var(--light);
-    color: var(--dark);
+    background: var(--dark);
+    color: var(--light);
 }
 
 section {
@@ -41,7 +41,7 @@ section {
 }
 
 h3 {
-    color: var(--dark);
+    color: var(--light);
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
@@ -67,7 +67,7 @@ h4 {
 
 .greeting .title,
 .greeting .title input {
-    color: var(--dark);
+    color: var(--light);
     font-size: 1.5rem;
     font-weight: 700;
 }
