@@ -11,10 +11,6 @@ window.addEventListener('load', () => {
         localStorage.setItem('username', e.target.value);
     })
 
-    nameInput.addEventListener('change', e => {
-        localStorage.setItem('username', e.target.value);
-    })
-
     newTodoForm.addEventListener('submit', e => {
         e.preventDefault();
 
